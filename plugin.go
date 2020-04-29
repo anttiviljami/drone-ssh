@@ -177,9 +177,9 @@ func (p Plugin) Exec() error {
 		}
 	}
 
-	fmt.Println("==============================================")
-	fmt.Println("✅ Successfully executed commands to all host.")
-	fmt.Println("==============================================")
+	fmt.Println("===============================================")
+	fmt.Println("✅ Successfully executed commands on all hosts.")
+	fmt.Println("===============================================")
 
 	return nil
 }
